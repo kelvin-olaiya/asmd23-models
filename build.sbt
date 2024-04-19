@@ -11,5 +11,5 @@ lazy val root = (project in file("."))
       ("de.sciss" %% "scala-chart" % "0.8.0").cross(CrossVersion.for2_13Use3)
     ),
     Compile / scalaSource := baseDirectory.value / "src" / "main",
-    Test / scalaSource := baseDirectory.value / "src" / "test",
+    Test / scalaSource := baseDirectory.value / "src" / "test"
   )
